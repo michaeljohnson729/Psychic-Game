@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    background-image: url("../images/psychic-background-11.jpg");
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    font-size: 36px;
+    font: bolder;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: white;
+    width: 400px;
+    text-align: center;
+}
+.stats {
+    background: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px; 
+    font-size: 24px;
+}
+
+

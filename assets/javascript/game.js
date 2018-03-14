@@ -1,3 +1,4 @@
+var userName = prompt("What is your name?")
 var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 var wins = 0;
 var losses = 0;
@@ -14,8 +15,9 @@ document.onkeyup = function (event) {
         console.log(randomLetter);
         if (userGuess === randomLetter) {
             wins++;
+            alert("You're a wizard, " + userName + "!!!");
             document.getElementById("wins").innerHTML = wins;
-            alert("YOU WON!!!!");
+            
         }
         else {
             guessesLeft--;
